@@ -1,0 +1,17 @@
+# Ignore compiled files
+*.class
+*.jar
+*.war
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore build output
+/build/
+/dist/
+
+# Ignore dependencies
+/node_modules/
+
+/package-lock.json
