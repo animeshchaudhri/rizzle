@@ -76,3 +76,50 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Miscellaneous
+*/frontend/rizzle/.class
+*/frontend/rizzle/.log
+*/frontend/rizzle/.pyc
+*/frontend/rizzle/.swp
+/frontend/rizzle/.DS_Store
+/frontend/rizzle/.atom/
+/frontend/rizzle/.buildlog/
+/frontend/rizzle/.history
+/frontend/rizzle/.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*/frontend/rizzle/.iml
+*/frontend/rizzle/.ipr
+*/frontend/rizzle/.iws
+/frontend/rizzle/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/frontend/rizzle/.dart_tool/
+/fronend/rizzle/.flutter-plugins
+/frontend/rizzle/.flutter-plugins-dependencies
+/frontend/rizzle/.packages
+/frontend/rizzle/.pub-cache/
+/frontend/rizzle/.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/frontend/rizzle/android/
+/frontend/rizzle/ios/
+/frontend/rizzle/build/
+/frontend/rizzle/ios/Pods/
+/fronend/rizzle/web/
+
