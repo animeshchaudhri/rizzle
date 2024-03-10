@@ -61,7 +61,7 @@ const makeDaPrompt = async (prompt) => {
 
     const response = result.response;
     console.log(response.text());
-    return response.text();
+    return JSON.parse(response.text());
   } catch (error) { console.log(error); }
 }
 
