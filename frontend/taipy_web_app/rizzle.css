@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive-video {
+    width: 100%;
+    height: 50vh;
+}
+
+.cont {
+    width: 100%;
+    height: 20vh;
+}
